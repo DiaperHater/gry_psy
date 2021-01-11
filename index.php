@@ -685,24 +685,25 @@
 			<div class="s9__block">
 				<div class="s9__inner">
 					<h3 class="s9__title">Оставить заявку</h3>
-					<form action="" class="s9__submit-form">
+
+					<form action="mailer.php" method="post" class="s9__submit-form">
 						<div class="s9__name">
 							<div class="s9__name__label">
 								Ваше имя
 							</div>
-							<input type="text" class="s9__name__input" placeholder="Ваше имя">
+							<input type="text" name="name" class="s9__name__input" placeholder="Ваше имя">
 						</div>
 						<div class="s9__tel">
 							<div class="s9__tel__label">
 								Контактный телефон
 							</div>
-							<input type="tel" class="s9__tel__input" placeholder="+79112345678">
+							<input type="tel" name="telNum" class="s9__tel__input" placeholder="+79112345678">
 						</div>
 						<div class="s9__mail">
 							<div class="s9__mail__label">
 								E-mail адрес
 							</div>
-							<input type="email" class="s9__mail__input" placeholder="name@mail.ru">
+							<input type="email" name="mail" class="s9__mail__input" placeholder="name@mail.ru">
 						</div>
 						<input type="submit" class="s9__submit-btn" value="Отправить">
 					</form>
@@ -728,3 +729,12 @@
 	<script src="js/main.js"></script>
 </body>
 </html>
+
+<?php
+	if(isset($_GET["name"])){
+		echo "<script>alert('Спасибо {$_GET['name']} ваша заявка отправлена')</script>";
+	}
+	if(isset($_GET["error"])) {
+		echo "<script>alert('Ошибка сервера приема заявок! Заявка не отправлена! \\r\\nПожалуйста попробуйте завтра \\r\\nПриносим свои извинения')</script>";
+	}
+?>
