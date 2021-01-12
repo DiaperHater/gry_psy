@@ -828,6 +828,8 @@ section {
   background: white;
   box-shadow: 0 6px 16px 0 rgba(171, 171, 171, 0.2);
   padding: 15px;
+  max-width: 350px;
+  margin: 0 auto;
 }
 .s7 .s7__block .s7__slider .s7__slider-body .s7__slider-item .s7__slider-item__inner .s7__slider-item__header {
   display: flex;
