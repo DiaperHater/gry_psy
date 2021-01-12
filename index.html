@@ -154,7 +154,7 @@
 								</h4>
 							</div>
 							<div class="topic__image">
-								<img src="img/day-1.jpg" alt="">
+								<img src="img/day-1-min.jpg" alt="">
 							</div>
 						</div>
 						<div class="topic-right-block">
@@ -194,7 +194,7 @@
 								</h4>
 							</div>
 							<div class="topic__image">
-								<img src="img/day-2.jpg" alt="">
+								<img src="img/day-2-min.jpg" alt="">
 							</div>
 						</div>
 						<div class="topic-right-block">
@@ -243,7 +243,7 @@
 								</h4>
 							</div>
 							<div class="topic__image">
-								<img src="img/day-3.jpg" alt="">
+								<img src="img/day-3-min.jpg" alt="">
 							</div>
 						</div>
 						<div class="topic-right-block">
@@ -281,7 +281,7 @@
 								</h4>
 							</div>
 							<div class="topic__image">
-								<img src="img/day-4.jpg" alt="">
+								<img src="img/day-4-min.jpg" alt="">
 							</div>
 						</div>
 						<div class="topic-right-block">
@@ -319,7 +319,7 @@
 								</h4>
 							</div>
 							<div class="topic__image">
-								<img src="img/day-5.jpg" alt="">
+								<img src="img/day-5-min.jpg" alt="">
 							</div>
 						</div>
 						<div class="topic-right-block">
