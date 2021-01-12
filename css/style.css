@@ -43,6 +43,7 @@ img {
 .header .header__container .header__menu {
   position: relative;
   width: 100%;
+  overflow: scroll;
 }
 .header .header__container .header__menu .menu__body {
   position: absolute;
@@ -71,6 +72,15 @@ img {
 }
 .header.mobile-menu-active .header__container .header__menu {
   transform: translateX(0);
+}
+.header.mobile-menu-active .header__container .header__menu .menu__body {
+  margin: 100px auto;
+  position: static;
+}
+.header.mobile-menu-active .header__container .header__menu .menu__body .menu__list .menu__link {
+  margin-left: 0;
+  font-size: 30px;
+  line-height: 37px;
 }
 .header.mobile-menu-active .burger__btn {
   display: none;
@@ -1160,11 +1170,6 @@ section {
     bottom: 0;
     background: white;
     transform: translateX(100%);
-  }
-  .header .header__container .header__menu .menu__body {
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
   }
   .header .header__container .header__menu .menu__body .menu__list {
     flex-flow: column;

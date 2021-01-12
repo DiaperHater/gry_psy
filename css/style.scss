@@ -66,6 +66,7 @@ img {
 		.header__menu {
 			position: relative;
 			width: 100%;
+			overflow: scroll;
 			.menu__body {
 				position: absolute;
 				right: 0;
@@ -101,6 +102,18 @@ img {
 	&.mobile-menu-active {
 		.header__container .header__menu {
 			transform: translateX(0);
+			.menu__body {
+				margin: 100px auto;
+				position: static;
+				.menu__list {
+					.menu__link {
+						margin-left: 0;
+						font-size: 30px;
+						line-height: 37px;
+					}
+				}
+			}
+
 		}
 
 		.burger__btn {
@@ -1409,9 +1422,9 @@ section {
 			background: white;
 			transform: translateX(100%);
 			.menu__body {
-				right: 50%;
-				bottom: 50%;
-				transform: translate(50%, 50%);
+				// right: 50%;
+				// bottom: 50%;
+				// transform: translate(50%, 50%);
 				.menu__list {
 					flex-flow: column;
 					row-gap: 20px;

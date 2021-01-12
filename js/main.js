@@ -164,3 +164,12 @@ closeBtn.addEventListener('click', ()=>{
 	header.classList.toggle('mobile-menu-active');
 	
 });
+
+// hide mobile menu when click on link
+const menuLinks = document.querySelectorAll('.menu__link');
+menuLinks.forEach((link)=>{
+	link.addEventListener('click', ()=>{
+		header.classList.remove("mobile-menu-active");
+		console.log('click');
+	});
+});
