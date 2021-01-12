@@ -43,7 +43,6 @@ img {
 .header .header__container .header__menu {
   position: relative;
   width: 100%;
-  overflow: scroll;
 }
 .header .header__container .header__menu .menu__body {
   position: absolute;
@@ -72,6 +71,7 @@ img {
 }
 .header.mobile-menu-active .header__container .header__menu {
   transform: translateX(0);
+  overflow: scroll;
 }
 .header.mobile-menu-active .header__container .header__menu .menu__body {
   margin: 100px auto;

@@ -66,7 +66,6 @@ img {
 		.header__menu {
 			position: relative;
 			width: 100%;
-			overflow: scroll;
 			.menu__body {
 				position: absolute;
 				right: 0;
@@ -102,6 +101,8 @@ img {
 	&.mobile-menu-active {
 		.header__container .header__menu {
 			transform: translateX(0);
+			overflow: scroll;
+			
 			.menu__body {
 				margin: 100px auto;
 				position: static;
