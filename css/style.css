@@ -461,6 +461,9 @@ section {
   transform: translateY(50%);
   transition: 0.6s all;
 }
+.program-section .program-section__topcs-list .s2__topic .topic__content .topic-left-block .topic__image img {
+  object-position: center center;
+}
 .program-section .program-section__topcs-list .s2__topic .topic__content .topic-right-block {
   width: 50%;
   padding-left: 40px;

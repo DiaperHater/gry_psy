@@ -102,7 +102,7 @@ img {
 		.header__container .header__menu {
 			transform: translateX(0);
 			overflow: scroll;
-			
+
 			.menu__body {
 				margin: 100px auto;
 				position: static;
@@ -586,7 +586,7 @@ section {
 						transition: 0.6s all;
 
 						img {
-							// object-fit: contain;
+							object-position: center center;
 						}
 					}
 				}
