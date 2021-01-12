@@ -106,6 +106,9 @@ prevBtn.addEventListener('click', ()=>{
     var headerHeight = document.querySelector('.header').clientHeight;
     var currentTarget = document.querySelector(targetSelector);
     var targetPosition = currentTarget.getBoundingClientRect().top;
+    if(document.querySelector('.header').classList.contains('mobile-menu-active')) {
+    	targetPosition -= headerHeight;
+    }
     var startPosition = window.pageYOffset;
     var startTime = null;
 
