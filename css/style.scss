@@ -1037,31 +1037,8 @@ section {
 					    box-shadow: 0 6px 16px 0 hsla(0,0%,67%,.2);
 					    padding: 15px;
 
-
-						.s7__slider-item__header {
-							display: flex;
-
-							.s7__slider-item-header__image {
-								width: 55px;
-								height: 55px;
-								border-radius: 100%;
-								overflow: hidden;
-							}
-
-							.s7__slider-item-header__meta {
-								margin-left: 10px;
-								font-size: 14px;
-								line-height: 17.5px;
-
-								.s7__slider-item-header__name-wrap {
-									color: black;
-								}
-							}
-						}
-
-						.s7__slider-item-body__text-wrap {
-							margin-top: 10px;
-						}
+					    max-width: 350px;
+					    margin: 0 auto;
 					}
 				}
 			}
