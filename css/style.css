@@ -31,6 +31,12 @@ img {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 767px) {
+  .header .header__container {
+    height: 55px;
+    align-items: center;
+  }
+}
 .header .header__container .mobile-menu__close-btn {
   display: none;
 }
@@ -39,6 +45,13 @@ img {
   width: 75px;
   height: 75px;
   margin: 5px 0 5px -15px;
+}
+@media screen and (max-width: 767px) {
+  .header .header__container .header__logo {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+  }
 }
 .header .header__container .header__menu {
   position: relative;
@@ -87,8 +100,8 @@ img {
 }
 .header.mobile-menu-active .mobile-menu__close-btn {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   position: absolute;
   top: 50%;
   right: 0;
@@ -1181,8 +1194,8 @@ section {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     padding: 0 5px;
     border: 2px solid #f5821f;
     transform: translateY(-50%);
