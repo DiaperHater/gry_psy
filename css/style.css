@@ -268,6 +268,7 @@ section {
 .intro .intro__content .intro__title .intro-description__wrapper {
   width: 300px;
   margin-top: 35px;
+  margin-bottom: 135px;
 }
 .intro .intro__content .intro__title .intro-description__wrapper p {
   color: #777;
@@ -275,7 +276,7 @@ section {
   font-size: 14px;
 }
 .intro .intro__content .intro__title .intro-benefits__block {
-  display: flex;
+  display: none;
   justify-content: space-between;
   margin: 25px auto 0;
 }
@@ -830,26 +831,6 @@ section {
   padding: 15px;
   max-width: 350px;
   margin: 0 auto;
-}
-.s7 .s7__block .s7__slider .s7__slider-body .s7__slider-item .s7__slider-item__inner .s7__slider-item__header {
-  display: flex;
-}
-.s7 .s7__block .s7__slider .s7__slider-body .s7__slider-item .s7__slider-item__inner .s7__slider-item__header .s7__slider-item-header__image {
-  width: 55px;
-  height: 55px;
-  border-radius: 100%;
-  overflow: hidden;
-}
-.s7 .s7__block .s7__slider .s7__slider-body .s7__slider-item .s7__slider-item__inner .s7__slider-item__header .s7__slider-item-header__meta {
-  margin-left: 10px;
-  font-size: 14px;
-  line-height: 17.5px;
-}
-.s7 .s7__block .s7__slider .s7__slider-body .s7__slider-item .s7__slider-item__inner .s7__slider-item__header .s7__slider-item-header__meta .s7__slider-item-header__name-wrap {
-  color: black;
-}
-.s7 .s7__block .s7__slider .s7__slider-body .s7__slider-item .s7__slider-item__inner .s7__slider-item-body__text-wrap {
-  margin-top: 10px;
 }
 
 .s8 {
